@@ -15,7 +15,4 @@ app.get('/:str', async (req, res) => {
     res.send('Извините, ваш запрос недоступен');
   }
 });
-
-app.listen(PORT, () => {
-  console.log(`Сервер запущен на порту ${PORT}`);
-});
+app.listen(PORT, () => {console.log(`Сервер запущен на порту ${PORT}`);});
